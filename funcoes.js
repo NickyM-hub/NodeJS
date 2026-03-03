@@ -20,3 +20,14 @@ const calcularDobro = numero => numero * 2
 const numeroDobrado = calcularDobro(4)
 
 console.log('o dobro de 4 é: ', numeroDobrado)
+
+let contador = 0
+
+const id = setInterval( () => {
+    contador++
+    console.log('Tempo decorrido (em segundos)', contador)
+    if (contador == 10) {
+        clearInterval(id)
+    }
+        
+}, 1000)
