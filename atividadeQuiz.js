@@ -43,6 +43,10 @@ pergunta.question("1- Qual palavra usamos para criar uma função no Node.js?\n(
                     console.log("Muito bom! Continue assim");
                     console.log('Total de acertos: ', acertos);
                 }
+                else if (acertos == 1) {
+                    console.log('Bom! Continue estudando');
+                    console.log('Total de acertos: ', acertos);
+                }
                 else {
                     console.log('Não acertou nenhuma questão, continue praticando');
                     console.log('Total de acertos: ', acertos);
